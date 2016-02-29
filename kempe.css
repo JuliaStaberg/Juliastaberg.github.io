@@ -1,0 +1,279 @@
+
+html, body {
+    margin:0;
+    padding:0;
+}
+
+/* start picture */
+
+.startbild {
+    
+    width: 100%;
+    height: 700px;
+    background-image: url("images/DSC_0080.jpg");
+    background-size: cover;
+    position:fixed;
+}
+
+.top h1 {
+    margin:0;
+    padding-top: 30px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+    padding-left: 30px;
+    color:yellow;
+    
+}
+
+.topright h1 {
+    
+    margin:0;
+    padding-top: 30px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+    padding-left: 30px;
+    color:yellow;
+}
+
+
+.bottom h1 {
+    padding-top: 520px;
+    color:yellow;
+    font-family: 'Roboto', sans-serif;
+    margin:0;
+    font-size: 40px;
+    padding-left: 30px;
+    
+}
+
+/* start picture end */
+
+
+/* structure gallery */
+
+.row {
+    width:1200px;
+    margin: 0 auto;
+    background-color:;
+    padding-top: 10px;
+}
+
+p {
+	color:black;
+    font-weight: 100;
+    margin-top: 0;
+
+}
+
+.space {
+    padding-top: 150px;
+}
+
+.row h3 {
+    float: left;
+    width: 100px;
+    padding: 2%;
+    padding-left: px;
+    color:black;
+    font-weight: 100;
+    
+   
+}
+
+/* menu */
+
+header {
+    margin:0;
+    padding: 0; 
+    height: 100px;
+    width: 100%;
+    background-color: white;
+    /*opacity: 0.6;*/
+    position: fixed;
+}
+
+
+header h1 {
+    max-width: 30%;
+    position: inherit;
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+    margin: 0;
+    padding-top: 30px;
+    padding-left: 2%;
+    
+}
+
+
+.nav {
+    
+text-align: left;
+margin: -30px 5% 0 0;
+}
+
+ .nav ul {
+   
+    list-style: none;
+    margin: 0;
+    padding-top: 5px;
+    max-width: 
+}
+
+
+.nav ul li {
+    height: 30px;
+    width: 100px;
+    float: right;
+    display:inline-block;
+    color:black;
+    
+    
+}
+
+/* menu end */
+
+a:link {
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    color: black;
+}
+
+a:visited {
+    text-decoration: none;
+    color:black;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+
+/* photo gallery */
+.row { 
+
+  display: table;
+  content: "";
+  /* background-color:seashell;  */
+
+}
+
+.row .md3 {
+  min-height: 1px;
+  padding-right: 2%;
+  padding-left: 2%;
+  float:left;
+  max-width: 40%;
+  display:inline-block; 
+}
+
+
+.md3 img {
+    width: 150px;
+    height: 150px;
+}
+
+
+/* article */
+
+
+.container {
+    
+
+border: solid white 1px;
+background-color:;
+    
+}
+
+.pilbak {
+    
+width:25px;
+height:50px;
+margin-left: 5%;
+padding-top: 10px;
+position: absolute;
+}
+
+.kategorirubrik {
+ max-width: 18%;
+ margin-top: 10%;
+ margin-left: 40%;
+ padding-top: 1%;
+ font-family: 'Roboto', sans-serif;
+ font-size: 15px;
+ color:black;
+    
+}
+
+.article img {
+    width: 70%;
+    height: 500px; 
+    margin-left: 12%;
+    padding-top:1%;
+}
+
+
+.article h2 {
+    padding-top: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+    margin-left: 20%;
+    margin-right: 20%;
+    color:blue; 
+}
+
+.article h5 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    margin-left: 20%;
+    margin-right: 20%;
+    color:blue;
+    
+}
+
+.article p {
+    position: inherit;
+    padding-top: 30px;
+    color: black;
+    margin-left: 20%;
+    margin-right: 20%;
+    line-height: 30px;
+    font-size: 20px;
+    font-weight: 100;
+}
+
+.botten {
+    
+    max-width: 100%;
+    height: 100px;
+    background-color:;
+    opacity: 0.6;
+}
+
+.botten p {
+    padding-top: 5%;
+    margin-left: 45%;
+}
+
+.botten hr {
+    
+    max-width: 70%
+}
+
+
+@media only screen and (max-width: 500px) {
+    body {
+        background-color: coral;
+    }
+    
+  .bottom h1 {
+    padding-top: 570px;
+    color:black;
+    font-family: 'Roboto', sans-serif;
+    margin:0;
+    font-size:40px;
+      
+    }
+      
+    
+}  
