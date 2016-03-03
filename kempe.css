@@ -10,7 +10,7 @@ html, body {
     
     width: 100%;
     height: 700px;
-    background-image: url("images/DSC_0080.jpg");
+    background-image: url("images/giphy.gif");
     background-size: cover;
     position:fixed;
 }
@@ -25,15 +25,6 @@ html, body {
     
 }
 
-.topright h1 {
-    
-    margin:0;
-    padding-top: 30px;
-    font-family: 'Roboto', sans-serif;
-    font-size: 40px;
-    padding-left: 30px;
-    color:yellow;
-}
 
 
 .bottom h1 {
@@ -72,7 +63,8 @@ p {
 .row h3 {
     float: left;
     width: 100px;
-    padding: 2%;
+    padding: 1%;
+    padding-top: 5%;
     padding-left: px;
     color:black;
     font-weight: 100;
@@ -97,9 +89,9 @@ header h1 {
     max-width: 30%;
     position: inherit;
     font-family: 'Roboto', sans-serif;
-    font-size: 40px;
+    font-size: 30px;
     margin: 0;
-    padding-top: 30px;
+    padding-top: 40px;
     padding-left: 2%;
     
 }
@@ -116,7 +108,8 @@ margin: -30px 5% 0 0;
     list-style: none;
     margin: 0;
     padding-top: 5px;
-    max-width: 
+    max-width:;
+    
 }
 
 
@@ -124,11 +117,12 @@ margin: -30px 5% 0 0;
     height: 30px;
     width: 100px;
     float: right;
+    margin-top:;
     display:inline-block;
     color:black;
-    
-    
 }
+
+
 
 /* menu end */
 
@@ -237,7 +231,7 @@ position: absolute;
     color: black;
     margin-left: 20%;
     margin-right: 20%;
-    line-height: 30px;
+    line-height: 40px;
     font-size: 20px;
     font-weight: 100;
 }
